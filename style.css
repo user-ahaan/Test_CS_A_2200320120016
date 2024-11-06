@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f1e4;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], select, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#conversionResult, #errorMessage {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#conversionResult {
+    color: green;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#currencyConverterSection {
+    display: none;
+}
